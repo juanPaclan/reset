@@ -1,0 +1,34 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <h3>Change password</h3>
+  <div class="etiqueta">
+    <form method="post">
+      <input type="hidden" name="csrfmiddlewaretoken" value="Adof1W5awEVoJByUgVFQ1fIBomF3zho83E90MzRkqiuxAwBlAdYVfsY3LHLlHUTd">
+      </input>
+      <title>EasyLigth</title>
+        <p>
+            <label for="id_new_password1">Contraseña nueva:</label>
+            <input type="password" name="new_password1" required id="id_new_password1">
+            <span class="helptext"></span>
+        </p>
+        <ul>
+            <li>Su contraseña no puede ser similar a su otra información personal.</li>
+            <li>Su contraseña es muy corta. Debe contener al menos 8 caracteres.</li>
+            <li>Su contraseña no puede ser una contraseña común.</li>
+            <li>Su contraseña no puede ser enteramente numérica.</li>
+            <input type="password" name="new_password2" required id="id_new_password2">
+        </ul>
+        <p></p>
+        <p>
+            <label for="id_new_password2">Confirmación de contraseña nueva:</label>
+        </p>
+      <button type="submit">Change password</button>
+  </div>
+
+    </form>
+   </body>
+</html>
